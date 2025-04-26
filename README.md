@@ -146,12 +146,12 @@ cd trabalho-pos-monitoramento-logs
 
   <h2>📸 Prints</h2>
   <ul>
-    <li>Grafana lendo os logs gerados pelo gerador de logs
-    <img src="print1.png"></li>
-    <li>Grafana lendo os logs do varlogs do Linux
-    <img src="print2.png"></li>
-    <li>Targets de logs definidos pelo Promtail
-    <img src="print3.png"></li>
+    <li>Grafana lendo os logs gerados pelo gerador de logs<br>
+    <img src="prints/print1.png"></li>
+    <li>Grafana lendo os logs do varlogs do Linux<br>
+    <img src="prints/print2.png"></li>
+    <li>Targets de logs definidos pelo Promtail<br>
+    <img src="prints/print3.png"></li>
   </ul>
 
   <p><strong>Autor:</strong> Felipe Neres Ribeiro<br>
