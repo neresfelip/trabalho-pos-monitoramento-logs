@@ -154,6 +154,6 @@ cd trabalho-pos-monitoramento-logs
     <img src="prints/print3.png"></li>
   </ul>
 
-  <p><strong>Autor:</strong> Felipe Neres Ribeiro<br>
+  <p><strong>Autor:</strong> Felipe Neres Ribeiro - Matrícula: 2327959<br>
      <strong>Data:</strong> 26-04-2025</p>
 
