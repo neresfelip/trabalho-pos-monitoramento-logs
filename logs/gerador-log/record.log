@@ -1,0 +1,5 @@
+2025-04-26 18:56:31,140 DEBUG    app          MainThread   Teste
+2025-04-26 19:33:23,260 DEBUG    app          MainThread   Teste
+2025-04-26 19:44:14,682 INFO     app          MainThread   Teste
+2025-04-26 19:44:20,551 INFO     app          MainThread   Teste
+2025-04-26 19:44:24,817 WARNING  app          MainThread   Teste

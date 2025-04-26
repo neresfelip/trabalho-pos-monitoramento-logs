@@ -1,0 +1,11 @@
+positions:
+  /logs/gerador-log/record.log: "319"
+  /logs/syslogs/alternatives.log: "22399"
+  /logs/syslogs/auth.log: "15943"
+  /logs/syslogs/bootstrap.log: "118497"
+  /logs/syslogs/dpkg.log: "379341"
+  /logs/syslogs/faillog: "0"
+  /logs/syslogs/fontconfig.log: "790"
+  /logs/syslogs/kern.log: "51280"
+  /logs/syslogs/lastlog: "0"
+  /logs/syslogs/syslog: "298098"

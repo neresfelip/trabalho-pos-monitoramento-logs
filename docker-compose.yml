@@ -1,0 +1,46 @@
+version: "3.8"
+
+networks:
+  loki:
+    driver: bridge
+
+services:
+  gerador-logs:
+    image: fabricioveronez/gerador-log
+    ports:
+    - 8080:5000
+    volumes:
+      - "./logs/gerador-log:/logs"
+    networks:
+    - loki
+  promtail:
+    image: grafana/promtail:2.7.5
+    networks:
+      - loki
+    ports:
+      - 9080:9080
+    depends_on:
+      - loki
+      - gerador-logs
+    volumes:
+      - "./promtail/config/config.yaml:/etc/promtail/config.yml"
+      - "/var/log:/logs/syslogs/"
+      - "./logs/gerador-log:/logs/gerador-log"
+      - "./promtail/position:/position"
+  loki:
+    image: grafana/loki:2.7.5
+    ports:
+    - 3100:3100
+    command:
+    - -config.file=/etc/loki/local-config.yaml
+    - -print-config-stderr=true
+    networks:
+    - loki
+  grafana:
+    image: grafana/grafana
+    ports:
+    - 3000:3000
+    depends_on:
+    - loki
+    networks:
+    - loki
