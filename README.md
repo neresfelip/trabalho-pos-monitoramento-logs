@@ -1,51 +1,3 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Trabalho de Monitoramento de Logs</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      line-height: 1.6;
-      margin: 2rem;
-    }
-    h1 {
-      font-size: 2rem;
-      font-weight: bold;
-      margin-bottom: 1rem;
-    }
-    h2 {
-      font-size: 1.5rem;
-      font-weight: bold;
-      margin-top: 2rem;
-      margin-bottom: 0.75rem;
-    }
-    h3 {
-      font-size: 1.25rem;
-      font-weight: bold;
-      margin-top: 1.5rem;
-      margin-bottom: 0.5rem;
-    }
-    pre, code {
-      background: #f4f4f4;
-      padding: 0.5rem;
-      border-radius: 4px;
-      overflow-x: auto;
-    }
-    pre {
-      margin: 1rem 0;
-    }
-    ul, ol {
-      margin: 0.5rem 0 1rem 1.5rem;
-    }
-    p {
-      margin: 0.5rem 0;
-    }
-  </style>
-</head>
-<body>
-
   <h1>Trabalho de Monitoramento de Logs</h1>
   <p>Este repositório contém a configuração para um pipeline de monitoramento de logs usando Docker Compose, Grafana Loki e Promtail.</p>
 
@@ -194,13 +146,14 @@ cd trabalho-pos-monitoramento-logs
 
   <h2>📸 Prints</h2>
   <ul>
-    <li>Grafana lendo os logs gerados pelo gerador de logs</li>
-    <li>Grafana lendo os logs do varlogs do Linux</li>
-    <li>Targets de logs definidos pelo Promtail</li>
+    <li>Grafana lendo os logs gerados pelo gerador de logs
+    <img src="print1.png"></li>
+    <li>Grafana lendo os logs do varlogs do Linux
+    <img src="print2.png"></li>
+    <li>Targets de logs definidos pelo Promtail
+    <img src="print3.png"></li>
   </ul>
 
   <p><strong>Autor:</strong> Felipe Neres Ribeiro<br>
      <strong>Data:</strong> 26-04-2025</p>
 
-</body>
-</html>
